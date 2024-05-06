@@ -4,8 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <!-- form login -->
+        <form action="" id="form-login">
+            <div class="form-title">
+                <h1 class="form-label">Login Form</h1>
+            </div>
+            <div class="input-field">
+                <div class="input-group">
+                    <label for="">Username</label>
+                    <input type="text" class="input" id="username" placeholder="Username">
+                </div>
+                <span class="message message-username"></span>
+            </div>
+            <div class="input-field">
+                <div class="input-group">
+                    <label for="">Password</label>
+                    <input type="password" class="input" id="password" placeholder="Password">
+                </div>
+                <span class="message message-password"></span>
+            </div>
+            <div class="group-field">
+                <button type="button" class="btn">Submit</button>
+            </div>
+            <div class="switch">
+                <p>Don't have an account ? <a href="#" class="signup">Sign up now</a></p>
+            </div>
+        </form>
+
+        <!-- form register -->
+        <form action="" id="form-register">
+            <div class="form-title">
+                <h1 class="form-label">Register Form</h1>
+            </div>
+            <div class="input-field">
+                <div class="input-group">
+                    <label for="">Username</label>
+                    <input type="text" class="input" id="username-regis" placeholder="Username">
+                </div>
+                <span class="message message-username-regis"></span>
+            </div>
+            <div class="input-field">
+                <div class="input-group">
+                    <label for="">Email</label>
+                    <input type="mail" class="input" id="email" placeholder="abc@gmail.com">
+                </div>
+                <span class="message message-email-regis"></span>
+            </div>
+            <div class="input-field">
+                <div class="input-group">
+                    <label for="">Password</label>
+                    <input type="password" class="input" id="password-regis" placeholder="Password">
+                </div>
+                <span class="message message-password-regis"></span>
+            </div>
+            <div class="group-field">
+                <button type="button" class="btn btn_res">Submit</button>
+            </div>
+            <div class="switch">
+                <p>Already have account ? <a href="#" class="login">Login now</a></p>
+            </div>
+        </form>
+    </div>
 </body>
+<script src="./app.js"></script>
 </html>
