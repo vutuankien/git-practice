@@ -4,4 +4,13 @@
     border: none;
     outline: none;
     font-size: 1.4rem;
+};
+
+@mixin text-field{
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #eeecec;
+    border: 1px solid #d5d4d4;
+    width: 100%;
 }
