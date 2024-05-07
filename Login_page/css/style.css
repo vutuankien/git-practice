@@ -56,6 +56,9 @@
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+.container .login-form #form .input-field .text-field:focus {
+  border: 1px solid #0866ff;
+}
 .container .login-form #form .input-field .button-submit {
   width: 100%;
   margin: 15px 0;
@@ -115,6 +118,10 @@
 }
 
 footer {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
   width: 100%;
   display: flex;
   justify-content: center;

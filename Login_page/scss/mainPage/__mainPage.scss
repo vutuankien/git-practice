@@ -45,6 +45,9 @@
                     margin: 10px 0;
                     border: 1px solid #ccc;
                     border-radius: 5px;
+                    &:focus{
+                        border: 1px solid $primary-color;
+                    }
                 }
                 .button-submit{
                     width: 100%;
