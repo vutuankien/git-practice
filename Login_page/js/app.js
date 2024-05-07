@@ -1,2 +1,15 @@
-const email = document.querySelector('#email');
-const password =  document.querySelector('#password');
+//regex
+const passwordRegex =
+    /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&*\(\)_+\-=\[\]\{\};':"\\|,.<>\/?])[a-zA-Z0-9!@#\$%\^&*\(\)_+\-=\[\]\{\};':"\\|,.<>\/?]{6,}$/;
+const usernameRegex = /^[A-Za-z0-9]+(?:[ _-][A-Za-z0-9]+)*$/;
+const emialRegex =
+    /^[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*$/;
+const form = document.querySelector("#form");
+const email = document.querySelector("#email");
+const password = document.querySelector("#password");
+const loginBtn = document.querySelector("#login_btn");
+
+function redirect(){
+    location.replace("https://www.w3schools.com")
+}
+

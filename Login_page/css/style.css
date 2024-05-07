@@ -71,6 +71,10 @@
   padding: 8px;
   font-weight: 600;
 }
+.container .login-form #form .input-field .button-submit a {
+  text-decoration: none;
+  color: #fff;
+}
 .container .login-form #form .form-forget {
   width: 100%;
   text-align: center;
