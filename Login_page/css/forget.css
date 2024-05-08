@@ -46,7 +46,7 @@ header a {
 
 .container {
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   background-color: #f0f2f5;
   display: flex;
   justify-content: center;
@@ -116,11 +116,14 @@ header a {
   gap: 10px;
 }
 .container form .form-button .cancel {
-  padding: 10px 20px;
-  background-color: #ccc;
-  color: #464545;
   border: none;
   outline: none;
+}
+.container form .form-button .cancel a {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #ccc;
+  color: #252525;
   border-radius: 5px;
   font-weight: 700;
 }

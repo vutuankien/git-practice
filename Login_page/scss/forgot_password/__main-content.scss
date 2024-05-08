@@ -1,83 +1,85 @@
-.container{
+.container {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     background-color: $gray;
     display: flex;
     justify-content: center;
     align-items: center;
-    form{
+    form {
         width: 530px;
         height: auto;
         background-color: $white;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.1),0 2px 4px rgba(0,0,0,0.1);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
         border-radius: 5px;
-        .form-label{
+        .form-label {
             width: 100%;
-            padding:20px;
-            h1{
+            padding: 20px;
+            h1 {
                 font-size: 1.5rem;
                 color: #162643;
             }
         }
-        .spacer{
+        .spacer {
             width: 100%;
             height: 1px;
             background-color: #ababab;
             margin-bottom: 20px;
         }
-        .message{
+        .message {
             display: none;
             margin: 0 20px;
             // width: 100%;
             border: 1px solid #dd3c10;
             padding: 10px;
             background-color: #ffebe8;
-            .message-heading{
+            .message-heading {
                 font-size: 15px;
                 font-weight: 600;
                 padding: 10px 0;
             }
-            .message-des{
+            .message-des {
                 font-size: 13px;
             }
         }
-        .main-form{
+        .main-form {
             width: 100%;
             padding: 0 20px;
-            .form-des{
+            .form-des {
                 margin: 20px 0;
                 color: $black;
             }
-            .input-group{
+            .input-group {
                 margin: 20px 0;
                 width: 100%;
-                input{
+                input {
                     border-radius: 5px;
                     width: 100%;
                     border: none;
                     outline: none;
                     padding: 15px 16px;
                     border: 1px solid #b0b0b0cc;
-
                 }
             }
         }
-        .form-button{
+        .form-button {
             width: 100%;
             display: flex;
             justify-content: end;
-            padding:20px;
+            padding: 20px;
             gap: 10px;
-            .cancel{
-                padding: 10px 20px;
-                background-color: #ccc;
-                color: #464545;
+            .cancel {
                 border: none;
                 outline: none;
-                border-radius: 5px;
-                font-weight: 700;
+                a {
+                    text-decoration: none;
+                    padding: 10px 30px;
+                    background-color: #ccc;
+                    color: #252525;
+                    border-radius: 5px;
+                    font-weight: 700;
+                }
             }
-            .search{
+            .search {
                 padding: 10px 20px;
                 background-color: $primary-color;
                 color: $white;
