@@ -53,6 +53,7 @@
   border: 1px solid #d5d4d4;
   width: 100%;
   background: none;
+  border-radius: 7px;
 }
 .container .form-content #signup .email {
   margin: 10px 0;
@@ -65,6 +66,7 @@
   border: 1px solid #d5d4d4;
   width: 100%;
   background: none;
+  border-radius: 7px;
 }
 .container .form-content #signup .password {
   margin: 10px 0;
@@ -77,6 +79,7 @@
   border: 1px solid #d5d4d4;
   width: 100%;
   background: none;
+  border-radius: 7px;
 }
 .container .form-content #signup .dob-text, .container .form-content #signup .gender {
   font-size: 13px;
@@ -100,6 +103,7 @@
   border: 1px solid #d5d4d4;
   width: 100%;
   background: none;
+  border-radius: 7px;
 }
 .container .form-content #signup .gender-group {
   width: 100%;
@@ -207,8 +211,7 @@ footer .policy-items .line-1 li a, footer .policy-items .line-2 li a, footer .po
 }
 
 .isActive {
-  border: 1px solid rgb(251, 25, 0);
-  background-color: #42b72a;
+  border: 1px solid rgb(251, 25, 0) !important;
 }
 
 /*# sourceMappingURL=signup.css.map */

@@ -34,6 +34,7 @@
                         width: 100%;
                         @include text-field;
                         background: none;
+                        border-radius: 7px;
                     }
                 }
             }
@@ -42,6 +43,7 @@
                 .mail{
                     @include text-field;
                     background: none;
+                    border-radius: 7px;
                 }
             }
             .password{
@@ -49,6 +51,7 @@
                 .password-signup{
                     @include text-field;
                     background: none;
+                    border-radius: 7px;
                 }
             }
             .dob-text, .gender{
@@ -67,6 +70,7 @@
                 select{
                     @include text-field;
                     background: none;
+                    border-radius: 7px;
                 }
             }
             .gender-group{
