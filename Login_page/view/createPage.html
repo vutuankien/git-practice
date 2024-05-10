@@ -1,75 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>create page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>create page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="../css/createPage.css">
-</head>
-<body>
-    <header>
-        <div class="left">
-            <a href="" class="logo">Facebook</a>
-            <a href="../view/signup.html" class="header-link">Đăng ký</a>
-        </div>
-        <div class="right">
-            <p class="right-join">Tham gia hoặc đăng nhập vào Facebook</p>
-            <i class="bi bi-chevron-down click-btn" style="color: #fff;margin-left :10px; cursor:pointer"></i>
-            <div class="login">
-                <form id="form">
-                    <div class="input-field">
-                        <label for="email" class="input_label">Email hoặc số điện thoại</label>
-                        <input type="text" name="email" id="email">
-                    </div>
-                    <div class="input-field">
-                        <label for="password" class="input_label">Mật khẩu</label>
-                        <input type="password" name="password" id="password">
-                    </div>
-                    <div class="forget">
-                        <a href="../view/forgotPassword.html" class="forget-text">Quên mật khẩu ?</a>
-                    </div>
-                    <div class="input-field">
-                        <button >Đăng nhập</button>
-                    </div>
-                </form>
-                <div class="form-footer">
-                    <div class="join">
-                        <p class="join-text">Bạn có muốn tham gia facebook không?</p>
-                    </div>
-                    <div class="button">
-                        <a href="../view/signup.html">Đăng ký</a>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
+        <link rel="stylesheet" href="../css/createPage.css" />
+    </head>
+    <body>
+        <header>
+            <div class="left">
+                <a href="" class="logo">TuanKien</a>
+                <a href="../view/signup.html" class="header-link">Đăng ký</a>
+            </div>
+            <div class="right">
+                <p class="right-join">Tham gia hoặc đăng nhập vào TuanKien</p>
+                <i
+                    class="bi bi-chevron-down click-btn"
+                    style="color: #fff; margin-left: 10px; cursor: pointer"
+                ></i>
+                <div class="login">
+                    <form id="form">
+                        <div class="input-field">
+                            <label for="email" class="input_label"
+                                >Email hoặc số điện thoại</label
+                            >
+                            <input type="text" name="email" id="email" />
+                        </div>
+                        <div class="input-field">
+                            <label for="password" class="input_label"
+                                >Mật khẩu</label
+                            >
+                            <input
+                                type="password"
+                                name="password"
+                                id="password"
+                            />
+                        </div>
+                        <div class="forget">
+                            <a
+                                href="../view/forgotPassword.html"
+                                class="forget-text"
+                                >Quên mật khẩu ?</a
+                            >
+                        </div>
+                        <div class="input-field">
+                            <button>Đăng nhập</button>
+                        </div>
+                    </form>
+                    <div class="form-footer">
+                        <div class="join">
+                            <p class="join-text">
+                                Bạn có muốn tham gia TuanKien không?
+                            </p>
+                        </div>
+                        <div class="button">
+                            <a href="../view/signup.html">Đăng ký</a>
+                        </div>
                     </div>
                 </div>
             </div>
+        </header>
+        <div class="container">
+            <div class="main-content">
+                <div class="create-content">
+                    <h2 class="create-content-heading">Tạo Trang</h2>
+                    <p class="create-content-des">
+                        Hãy kết nối doanh nghiệp, bản thân hoặc mục đích xã hội
+                        của bạn với cộng đồng người dùng TuanKien trên toàn thế
+                        giới. Để bắt đầu, hãy chọn hạng mục Trang
+                    </p>
+                </div>
+                <div class="create-brand">
+                    <div class="create-brand-items">
+                        <div class="img-group">
+                            <img src="../img/biz_illustration.png" alt="" />
+                        </div>
+                        <p class="brand-heading">
+                            Doanh nghiệp hoặc Thương hiệu
+                        </p>
+                        <p class="brand-des">
+                            Giới thiệu sản phẩm và dịch vụ của bạn, nêu bật
+                            thương hiệu và tiếp cận thêm khách hàng tiềm năng
+                            trên TuanKien.
+                        </p>
+                        <div class="spacer"></div>
+                        <div class="btn-group">
+                            <a href="#">Bắt đầu</a>
+                        </div>
+                    </div>
+                    <div class="create-brand-items">
+                        <div class="img-group">
+                            <img src="../img/community_illustration.png" alt="" />
+                        </div>
+                        <p class="brand-heading">
+                            Cộng đồng hoặc Người của công chúng
+                        </p>
+                        <p class="brand-des">
+                            Kết nối và chia sẻ với mọi người trong cộng đồng, tổ chức, đội ngũ, nhóm hoặc câu lạc bộ của bạn.
+                        </p>
+                        <div class="spacer"></div>
+                        <div class="btn-group">
+                            <a href="#">Bắt đầu</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
-    </header>
-</body>
+    </body>
 
-
-<script>
-    const clickBtn = document.querySelector(".click-btn");
-    const formLogin = document.querySelector(".login");
-    const loginBtn = document.querySelector(".input-field button");
-    const email = document.querySelector("#email");
-    const password = document.querySelector("#password");
-    clickBtn.addEventListener('click',(e)=>{
-        e.preventDefault();
-        formLogin.classList.toggle('toogle-class');
-    })
-    loginBtn.addEventListener('click',event =>{
-        event.preventDefault();
-        if(email.value === '' || password.value === ''){
-            location.href = 'loginPage.html'
-        }else{
-            location.href = 'https://facebook.com'
-        }
-    })
-</script>
+    <script>
+        const clickBtn = document.querySelector(".click-btn");
+        const formLogin = document.querySelector(".login");
+        const loginBtn = document.querySelector(".input-field button");
+        const email = document.querySelector("#email");
+        const password = document.querySelector("#password");
+        clickBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            formLogin.classList.toggle("toogle-class");
+        });
+        loginBtn.addEventListener("click", (event) => {
+            event.preventDefault();
+            if (email.value === "" || password.value === "") {
+                location.href = "loginPage.html";
+            } else {
+                location.href = "https://facebook.com";
+            }
+        });
+    </script>
 </html>

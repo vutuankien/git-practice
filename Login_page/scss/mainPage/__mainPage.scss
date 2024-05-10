@@ -11,9 +11,10 @@
         display: flex;
         flex-direction: column;
         // align-items: start;
-        img {
-            width: 500px;
-            height: 160px;
+        h1{
+            font-size: 80px;
+            margin-left: 40px;
+            color: #0866FF;
         }
         .face-book-content {
             color: $black;

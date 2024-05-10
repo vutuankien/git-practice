@@ -14,8 +14,9 @@ header {
   align-items: center;
   box-shadow: 0 3px 3px #ccc;
 }
-header .header-logo img {
-  height: 60px;
+header .header-logo h1 {
+  font-size: 35tpx;
+  color: #0866FF;
 }
 header .heade-login input {
   border: none;

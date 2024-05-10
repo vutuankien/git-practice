@@ -14,8 +14,10 @@
   align-items: center;
   padding-top: 40px;
 }
-.container .logo img {
-  height: 80px;
+.container .logo h1 {
+  margin: 20px 0;
+  font-size: 40px;
+  color: #0866FF;
 }
 .container #form {
   position: relative;

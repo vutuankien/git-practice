@@ -14,8 +14,10 @@
   flex-direction: column;
   height: 100vh;
 }
-.container .logo img {
-  height: 80px;
+.container .logo h1 {
+  font-size: 40px;
+  margin: 20px;
+  color: #0866FF;
 }
 .container .form-content {
   width: 500px;

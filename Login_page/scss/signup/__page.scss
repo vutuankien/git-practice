@@ -2,8 +2,10 @@
     @include container;
     flex-direction: column;
     height: 100vh;
-    .logo img{
-        height: 80px;
+    .logo h1{
+        font-size: 40px;
+        margin: 20px;
+        color: #0866FF;
     }
     .form-content{
         width: 500px;
