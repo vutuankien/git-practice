@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: #405e9b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .left {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+header .left .logo {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+header .left .header-link {
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 10px;
+  background-color: #42b72a;
+  font-weight: 700;
+}
+header .left .header-link:hover {
+  background-color: #6ad355;
+}
+header .right {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+header .right .right-join {
+  font-size: 15px;
+  color: #fff;
+}
+header .right .login {
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+  right: 0;
+  width: 260px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+header .right .login #form {
+  padding: 10px;
+}
+header .right .login #form .input-field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+header .right .login #form .input-field label {
+  margin: 5px 0;
+  font-size: 13px;
+  color: #606770;
+  font-weight: 600;
+}
+header .right .login #form .input-field input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 5px 19px 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+header .right .login #form .input-field button {
+  padding: 5px 16px;
+  border: none;
+  background-color: #0866ff;
+  color: #fff;
+  font-size: 15px;
+}
+header .right .login #form .input-field button:hover {
+  background-color: #385898;
+}
+header .right .login #form .forget {
+  width: 100%;
+  display: flex;
+  padding: 5px;
+  justify-content: end;
+}
+header .right .login #form .forget .forget-text {
+  color: #385898;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 500;
+}
+header .right .login #form .forget .forget-text:hover {
+  text-decoration: underline;
+}
+header .right .login .form-footer {
+  width: 100%;
+  height: auto;
+  padding: 20px 0 10px 0;
+  background-color: #f5f3f3;
+}
+header .right .login .form-footer .join {
+  width: 100%;
+  text-align: center;
+}
+header .right .login .form-footer .join .join-text {
+  font-size: 11px;
+}
+header .right .login .form-footer .button {
+  margin: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+header .right .login .form-footer .button a {
+  text-decoration: none;
+  padding: 5px 14px;
+  background-color: #42b72a;
+  color: #fff;
+}
+header .right .login .form-footer .button a:hover {
+  background-color: #146404;
+}
+
+.toogle-class {
+  display: none;
+  transition: 0.3s ease-in-out;
+}
+
+/*# sourceMappingURL=createPage.css.map */

@@ -1,0 +1,128 @@
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #405e9b;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .left {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        .logo {
+            text-decoration: none;
+            font-size: 40px;
+            font-weight: 600;
+            color: $white;
+        }
+        .header-link {
+            @include button;
+            text-decoration: none;
+            font-size: 10px;
+            background-color: $create-btn;
+            font-weight: 700;
+            &:hover{
+                background-color: #6ad355;
+            }
+        }
+    }
+    .right {
+        position: relative;
+        display: flex;
+        align-items: center;
+        .right-join{
+            font-size: 15px;
+            color: $white;
+        }
+        .login{
+            position: absolute;
+            top: 20px;
+            z-index: 1;
+            right: 0;
+            width: 260px;
+            height: auto ;
+            background-color: $white;
+            border-radius: 3px 3px 0 0;
+            box-shadow:0 3px 6px  rgba(0, 0, 0, .3);
+            #form{
+                padding: 10px;
+                .input-field{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    label{
+                        margin: 5px 0;
+                        font-size: 13px;
+                        color:#606770;
+                        font-weight: 600;
+                    }
+                    input{
+                        width: 100%;
+                        border: none;
+                        outline: none;
+                        padding: 5px 19px 5px 10px;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                    }
+                    button{
+                        padding: 5px 16px;
+                        border: none;
+                        background-color: $primary-color;
+                        color: $white;
+                        font-size: 15px;
+                        &:hover{
+                            background-color: #385898;
+                        }
+                    }
+                }
+                .forget{
+                    width: 100%;
+                    display: flex;
+                    padding: 5px;
+                    justify-content: end;
+                    .forget-text{
+                        color: #385898;
+                        font-size: 13px;
+                        text-decoration: none;
+                        font-weight: 500;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            .form-footer{
+                width: 100%;
+                height: auto;
+                padding: 20px 0 10px 0;
+                background-color: #f5f3f3;
+                .join{
+                    width: 100%;
+                    text-align: center;
+                    .join-text{
+                        font-size: 11px;
+                    }
+                }
+                .button{
+                    margin: 10px 0;
+                    width: 100%;
+                    text-align: center;
+                    a{
+                        // margin-top: 20px;
+                        text-decoration: none;
+                        padding: 5px 14px;
+                        background-color: $create-btn;
+                        color: $white;
+                        &:hover{
+                            background-color: #146404;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.toogle-class{
+    display: none;
+    transition: 0.3s ease-in-out;
+}
